@@ -13,6 +13,7 @@ class _DownloadPageState extends State<DownloadPage> {
     return Scaffold(
       body: Center(
         child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
           children: [
             const Text("Downloads"),
           ],

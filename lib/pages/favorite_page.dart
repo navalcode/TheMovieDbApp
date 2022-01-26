@@ -13,6 +13,7 @@ class _FavoritePageState extends State<FavoritePage> {
     return Scaffold(
       body: Center(
         child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
           children: [
             const Text("Favorites"),
           ],

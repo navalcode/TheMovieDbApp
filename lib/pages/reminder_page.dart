@@ -13,6 +13,7 @@ class _ReminderPageState extends State<ReminderPage> {
     return Scaffold(
       body: Center(
         child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
           children: [
             const Text("Reminders"),
           ],

@@ -13,6 +13,7 @@ class _HomePageState extends State<HomePage> {
     return Scaffold(
       body: Center(
         child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
           children: [
             const Text("Homepage"),
           ],
