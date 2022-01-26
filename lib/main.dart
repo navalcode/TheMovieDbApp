@@ -76,24 +76,29 @@ class _InicioState extends State<Inicio> {
             showSelectedLabels: false,
             showUnselectedLabels: false,
             type: BottomNavigationBarType.fixed,
-            fixedColor: Colors.purple,
-            unselectedItemColor: Colors.grey,
             items: const <BottomNavigationBarItem>[
               BottomNavigationBarItem(
-                  icon: Icon(Icons.home_outlined),
-                  activeIcon: Icon(Icons.home),
+                  icon: Icon(Icons.home_outlined, color: Colors.grey),
+                  activeIcon:
+                      Icon(Icons.home, color: Color.fromRGBO(78, 79, 254, 100)),
                   label: "home"),
               BottomNavigationBarItem(
-                  icon: Icon(Icons.favorite_outline),
-                  activeIcon: Icon(Icons.favorite),
+                  icon: Icon(Icons.favorite_outline, color: Colors.grey),
+                  activeIcon: Icon(Icons.favorite,
+                      color: Color.fromRGBO(78, 79, 254, 100)),
                   label: "favorites"),
               BottomNavigationBarItem(
-                  icon: Icon(Icons.cloud_download_outlined),
-                  activeIcon: Icon(Icons.cloud_download),
+                  icon: Icon(
+                    Icons.cloud_download_outlined,
+                    color: Colors.grey,
+                  ),
+                  activeIcon: Icon(Icons.cloud_download,
+                      color: Color.fromRGBO(78, 79, 254, 100)),
                   label: "downloads"),
               BottomNavigationBarItem(
-                  icon: Icon(Icons.notifications_outlined),
-                  activeIcon: Icon(Icons.notifications),
+                  icon: Icon(Icons.notifications_outlined, color: Colors.grey),
+                  activeIcon: Icon(Icons.notifications,
+                      color: Color.fromRGBO(78, 79, 254, 100)),
                   label: "reminder")
             ],
             currentIndex: _selectedIndex,
