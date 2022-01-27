@@ -109,23 +109,15 @@ class _HomePageState extends State<HomePage> {
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
           Container(
-              margin: const EdgeInsets.only(left: 20),
-              child: Text(
-                nombre,
-                style: const TextStyle(
-                    color: Colors.white,
-                    fontSize: 30,
-                    shadows: <Shadow>[
-                      Shadow(blurRadius: 50, color: Colors.black),
-                    ]),
-              )),
+            margin: const EdgeInsets.only(left: 20),
+          ),
           Container(
             margin: const EdgeInsets.only(left: 20),
             child: ClipRRect(
               borderRadius: BorderRadius.circular(15),
               child: Image.network(
                 "https://image.tmdb.org/t/p/original" + posterPath,
-                scale: 2,
+                scale: 15,
                 fit: BoxFit.cover,
               ),
             ),
