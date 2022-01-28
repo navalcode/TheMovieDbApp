@@ -116,9 +116,9 @@ class _HomePageState extends State<HomePage> {
             child: ClipRRect(
               borderRadius: BorderRadius.circular(15),
               child: Image.network(
-                "https://image.tmdb.org/t/p/original" + posterPath,
-                scale: 15,
-                fit: BoxFit.cover,
+                "https://image.tmdb.org/t/p/w500" + posterPath,
+                height: 150,
+                fit: BoxFit.fill,
               ),
             ),
           ),
