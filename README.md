@@ -1,18 +1,26 @@
-# Movie screen prototype
+# Flutter movie-screen prototype
 
 [English](#overview) · [Español](#resumen)
 
 ## Overview
 
-Flutter movie-screen prototype with home, favorites, download and reminder pages.
+Flutter prototype with home, favorites, download and reminder pages and a model for popular-movie responses. These are source-code areas to inspect; the page names do not establish working downloads or reminders.
 
-An earlier learning exercise. The source is preserved with its original toolchain; compatibility with current versions has not been revalidated.
+External movie-service configuration, asset provenance and current runtime behavior still need review. No service key or working external API is supplied by this presentation update.
+
+- [`home_page.dart`](lib/pages/home_page.dart)
+- [`popular_movie_response.dart`](lib/models/popular_movie_response.dart)
+- [`favorite_page.dart`](lib/pages/favorite_page.dart)
+
+[pubspec.yaml](pubspec.yaml): The package file records the SDK constraint, dependencies and assets.
 
 ## Resumen
 
-Prototipo Flutter de pantallas de películas con inicio, favoritos, descargas y recordatorios.
+Prototipo Flutter con páginas de inicio, favoritos, descargas y recordatorios y un modelo de respuesta de películas populares. Son áreas del código para revisar; los nombres no demuestran que descargas o recordatorios funcionen.
 
-Ejercicio de una etapa anterior de aprendizaje. Se conserva con sus herramientas originales; no se ha vuelto a validar con versiones actuales.
+Queda revisar la configuración del servicio de películas, la procedencia de recursos y el comportamiento actual. Esta actualización de presentación no aporta una clave de servicio ni acredita una API externa operativa.
+
+Consulta los archivos enlazados arriba para seguir la implementación. [pubspec.yaml](pubspec.yaml): El archivo del paquete recoge SDK, dependencias y recursos.
 
 <details>
 <summary>Original documentation and credits · Documentación y créditos originales</summary>
